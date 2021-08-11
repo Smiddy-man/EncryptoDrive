@@ -5,9 +5,9 @@ font-family: 'Lato', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 */
 :root {
---Flame: #D29947;
---Khaki: #C3B697;
---Beige: #dbc9b2;
+--Main: #D29947;
+--MainL: #C3B697;
+--MainLL: #dbc9b2;
 --White: #ffffff;
 --Black: #170a10;
 }
@@ -40,10 +40,10 @@ nav {
 }
 a {
   text-decoration: none;
-  color: var(--Beige);
+  color: var(--MainLL);
 }
 a:hover{
-  color: var(--Flame);
+  color: var(--Main);
 }
 #containernav {
   width: 60vw;
@@ -86,13 +86,13 @@ a:hover{
 .cta a{
   padding: 0.5vw;
   text-decoration: none;
-  background-color: var(--Flame);
+  background-color: var(--Main);
   color: var(--White);
   border: none;
 }
 .cta a:hover {
-  color: var(--Flame);
-  background-color: var(--Beige);
+  color: var(--Main);
+  background-color: var(--MainLL);
 }
 /*
 --------------------------------------------------------------------
@@ -209,7 +209,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 4vh 0;
-  background: var(--Beige);
+  background: var(--MainLL);
 }
 footer h2 {
   color: var(--Black);
