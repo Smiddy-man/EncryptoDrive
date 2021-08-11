@@ -3,11 +3,14 @@
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
+
+BELOW IS THE INITIAL SETUP & COLOURS
 */
 :root {
 --Main: #D29947;
---MainL: #C3B697;
+--MainL: #4F4137;
 --MainLL: #dbc9b2;
+--MainD: #BD7046;
 --White: #ffffff;
 --Black: #170a10;
 }
@@ -24,6 +27,8 @@ body {
 /*
 --------------------------------------------------------------------
 ABOVE IS THE INITIAL SETUP & COLOURS
+
+BELOW IS THE NAVIGATION BAR CSS
 --------------------------------------------------------------------
 */
 nav {
@@ -97,6 +102,8 @@ a:hover{
 /*
 --------------------------------------------------------------------
 ABOVE IS THE NAVIGATION BAR CSS
+
+BELOW IS HERO TEXT / HEAD OF PAGE
 --------------------------------------------------------------------
 */
 #heroimg {
@@ -122,6 +129,8 @@ ABOVE IS THE NAVIGATION BAR CSS
 /*
 --------------------------------------------------------------------
 ABOVE IS HERO TEXT / HEAD OF PAGE
+
+BELOW IS MID SECTION / IMAGE TILES
 --------------------------------------------------------------------
 */
 #columncont1 {
@@ -202,6 +211,8 @@ ABOVE IS HERO TEXT / HEAD OF PAGE
 /*
 --------------------------------------------------------------------
 ABOVE IS MID SECTION / IMAGE TILES
+
+BELOW IS FOOTER SECTION
 --------------------------------------------------------------------
 */
 footer {
@@ -209,14 +220,14 @@ footer {
   display: flex;
   justify-content: center;
   padding: 4vh 0;
+  color: var(--MainL);
   background: var(--MainLL);
+}
+footer a{
+  color: var(--MainD);
 }
 footer h2 {
   color: var(--Black);
-}
-footer a{
-  color: var(--Black);
-  font-weight: bold;
 }
 #imagecontfooter {
   text-align: center;
@@ -232,5 +243,4 @@ footer a{
 .footerlogos {
   width: 50px;
   height: 52px;
-  filter: invert(100%);
 }
