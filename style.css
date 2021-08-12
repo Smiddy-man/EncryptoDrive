@@ -10,7 +10,7 @@ BELOW IS THE INITIAL SETUP & COLOURS
 --Main: #D29947;
 --MainL: #4F4137;
 --MainLL: #dbc9b2;
---MainD: #BD7046;
+--MainD: #C04D4D;
 --White: #ffffff;
 --Black: #170a10;
 }
@@ -106,10 +106,17 @@ ABOVE IS THE NAVIGATION BAR CSS
 BELOW IS HERO TEXT / HEAD OF PAGE
 --------------------------------------------------------------------
 */
-#heroimg {
+.heroimg {
   width: 100vw;
   height: 100vh;
+}
+#heroimg1 {
   background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/heroImg1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimg2 {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/Img1.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -236,11 +243,53 @@ footer h2 {
   display: flex;
   justify-content: center;
 }
+#imagecontfooter img{
+  padding: .4vw;
+}
+.subfootertext {
+  text-align: left;
+}
 .footertab {
   width: 14vw;
   padding: 0 4vw;
 }
-.footerlogos {
+.footerlogos{
   width: 50px;
   height: 52px;
+}
+.footerlogos:hover {
+  filter: invert(20%);
+}
+#footertab1 {
+  text-align: right;
+}
+#footertab3 {
+  text-align: left;
+}
+/*
+--------------------------------------------------------------------
+ABOVE IS FOOTER SECTION
+
+BELOW IS MENU SIDE-BAR
+--------------------------------------------------------------------
+*/
+#sidemenu {
+  position: absolute;
+  top: 0%;
+  width: 10vw;
+  height: 100vh;
+  background: #fff;
+  color: #000;
+}
+#txtboxcont {
+  width: 90vw;
+  transform: translateX(10vw);
+  display: flex;
+  justify-content: center;
+  z-index: -100
+}
+.textbox {
+  width: 50vw;
+  height: 300vh;
+  background-color: var(--White);
 }
