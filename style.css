@@ -111,7 +111,7 @@ BELOW IS HERO TEXT / HEAD OF PAGE
   height: 100vh;
 }
 #heroimg1 {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/heroImg1.jpg");
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg1.jpg");
   background-position: center;
   background-size: cover;
 }
