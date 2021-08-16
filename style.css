@@ -116,7 +116,22 @@ BELOW IS HERO TEXT / HEAD OF PAGE
   background-size: cover;
 }
 #heroimg2 {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/Img1.jpg");
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimg3 {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimg4 {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimg5 {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg5.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -137,7 +152,7 @@ BELOW IS HERO TEXT / HEAD OF PAGE
   text-align: center;
 }
 #shtxt2 {
-  padding: 0 0 5vh 45vw;
+  padding: 0 0 5vh 43vw;
 }
 .herosubtxt {
   padding-left: 15vw;
@@ -359,12 +374,18 @@ h5 {
   font-weight: 600;
   padding: 5px 0;
 }
-#dietaryexplaincont {
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.centercont {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+  }
+.toppadding {
+  padding-top: 10%;
   padding-bottom: 5%;
+}
+.centercont h1 {
+  font-size: 300%;
+  margin: 2% 0;
 }
 .dietexplainitem {
   display: flex;
