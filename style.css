@@ -120,8 +120,43 @@ BELOW IS HERO TEXT / HEAD OF PAGE
   background-position: center;
   background-size: cover;
 }
-#heroimg3 {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg3.jpg");
+#heroimgBrunch {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgBR.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimgDinner {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgDI.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimgDesert {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgDE.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimgKids {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgKI.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimgWine {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgWI.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimgBeer {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgBE.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimgCocktails {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgCT.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimgSoftDrinks {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgSD.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -132,6 +167,11 @@ BELOW IS HERO TEXT / HEAD OF PAGE
 }
 #heroimg5 {
   background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimg6 {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg6.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -339,14 +379,15 @@ h5 {
 }
 .textbox {
   width: 60vw;
-  height: 300vh;
   padding: 5vw;
   background-color: var(--White);
   font-size: 85%;
+  margin: 0 10%
 }
 .MenuItem {
   display: flex;
   padding: 1% 0;
+  border-bottom: 1px dashed var(--Black);
 }
 .MenuItemleftRow {
   width: 70%;
