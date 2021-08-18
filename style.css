@@ -19,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   display: inline-block;
-  font-size: .9vw;
+  font-size: 16px;
   background-color: var(--Black);
   color: var(--White);
   overflow-x: hidden;
@@ -36,7 +36,6 @@ nav {
   font-family: 'Josefin Sans', sans-serif;
   width: 100vw;
   justify-content: center;
-  top: 0;
 }
 #nav {
   position: fixed;
@@ -83,37 +82,43 @@ a:hover{
   padding: 1vw;
 }
 #block3 {
-  width: 15%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 18px;
 }
 .cta a{
-  padding: 0.5vw;
   text-decoration: none;
   background-color: var(--Main);
   color: var(--White);
-  border: none;
+  margin: 0 10px;
+  padding: 8px;
+  text-align: center;
+  align-self: center;
 }
 .cta a:hover {
-  color: var(--Main);
+  color: var(--Black);
   background-color: var(--MainLL);
 }
 /*
 --------------------------------------------------------------------
 ABOVE IS THE NAVIGATION BAR CSS
 
-BELOW IS HERO TEXT / HEAD OF PAGE
+BELOW IS HERO TEXT / HERO IMAGES
 --------------------------------------------------------------------
 */
 .heroimg {
   width: 100vw;
   height: 100vh;
 }
+.menuimg {
+  position: relative;
+}
 #heroimg1 {
   background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg1.jpg");
   background-position: center;
   background-size: cover;
+  /* opacity: 80%; */
 }
 #heroimg2 {
   background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg2.jpg");
@@ -121,7 +126,7 @@ BELOW IS HERO TEXT / HEAD OF PAGE
   background-size: cover;
 }
 #heroimgBrunch {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgBR.jpg");
+  background: linear-gradient(180deg, url("Images/HeroImgBR.jpg") 50%, var(--Black) 100%);
   background-position: center;
   background-size: cover;
 }
@@ -183,21 +188,21 @@ BELOW IS HERO TEXT / HEAD OF PAGE
 }
 #htxt1 {
   padding: 30vh 0 2vh 15vw;
-  font-size: 8vw;
+  font-size: 160px;
 }
 #htxt2 {
   padding: 15vh 0 0 5vw;
-  font-size: 8vw;
+  font-size: 92px;
   width: 100vw;
   text-align: center;
 }
 #shtxt2 {
-  padding: 0 0 5vh 43vw;
+  padding: 0 0 5vh 50vw;
 }
 .herosubtxt {
   padding-left: 15vw;
-  font-size: 1vw;
-  opacity: 75%;
+  font-size: 16px;
+  opacity: 90%;
 }
 /*
 --------------------------------------------------------------------
@@ -252,7 +257,8 @@ BELOW IS MID SECTION / IMAGE TILES
 .columns .cta a {
   align-items: flex-end;
   justify-content: flex-end;
-  padding: 1.2vw;
+  padding: 0.8vw;
+  margin-right: 20px;
 }
 .columns .cta {
   margin: 5vh 0;
@@ -275,11 +281,11 @@ BELOW IS MID SECTION / IMAGE TILES
   text-align: right;
 }
 .cHeader {
-  font-size: 6vw;
+  font-size: 88px;
   font-family: 'Josefin Sans', sans-serif;
 }
 .csubtxt {
-  font-size: 1vw;
+  font-size: 14px;
 }
 /*
 --------------------------------------------------------------------
@@ -295,6 +301,7 @@ footer {
   padding: 4vh 0;
   color: var(--MainL);
   background: var(--MainLL);
+  position: absolute;
 }
 footer a{
   color: var(--MainD);
@@ -312,8 +319,8 @@ footer h2 {
 #imagecontfooter img{
   padding: .4vw;
 }
-.subfootertext {
-  text-align: left;
+.subfootertext #contactfooter {
+  text-align: right;
 }
 .footertab {
   width: 14vw;
@@ -349,20 +356,20 @@ BELOW IS MENU SIDE-BAR
 #sidemenu {
   position: absolute;
   top: 0%;
-  width: 7%;
   height: 100vh;
   background: #fff;
   color: #000;
-  padding: 0 2vw;
+  padding: 0 3vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .subitemmenu {
-  padding: 1vh 0;
+  padding: 1.3vh 0;
 }
 .sidemenuitem h2{
   padding-top: 5vh;
+  font-size: 240%;
 }
 #txtboxcont {
   width: 90vw;
@@ -381,8 +388,7 @@ h5 {
   width: 60vw;
   padding: 5vw;
   background-color: var(--White);
-  font-size: 85%;
-  margin: 0 10%
+  margin: 0 10%;
 }
 .MenuItem {
   display: flex;
@@ -419,6 +425,7 @@ h5 {
     height: 30px;
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 .toppadding {
   padding-top: 10%;
@@ -431,8 +438,8 @@ h5 {
 .dietexplainitem {
   display: flex;
   justify-content: center;
-  width: 12vw;
   height: 20px;
+  width: 20%;
 }
 .dietexplainitem img {
   padding-right: 3%;
