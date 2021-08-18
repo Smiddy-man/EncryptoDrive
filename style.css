@@ -57,18 +57,18 @@ a:hover{
   margin: 1vh;
 }
 #block1 {
-  width: 8%;
-  justify-content: space-around;
-  align-items: center;
+  /* width: 8%; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
 }
 #Logo {
-  width: 100%;
+  width: 80px;
   justify-content: space-around;
 }
 #block2 {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
 }
 #longdivider {
@@ -83,18 +83,18 @@ a:hover{
 }
 #block3 {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
   padding: 18px;
 }
 .cta a{
-  text-decoration: none;
+  /* text-decoration: none; */
   background-color: var(--Main);
   color: var(--White);
-  margin: 0 10px;
-  padding: 8px;
-  text-align: center;
-  align-self: center;
+  margin: 0 12px;
+  padding: 12px;
+  /* text-align: center; */
+  /* align-self: center; */
 }
 .cta a:hover {
   color: var(--Black);
@@ -325,6 +325,7 @@ footer h2 {
 .footertab {
   width: 14vw;
   padding: 0 4vw;
+  text-align: center;
 }
 .footerlogos{
   width: 50px;
@@ -333,11 +334,19 @@ footer h2 {
 .footerlogos:hover {
   filter: invert(20%);
 }
-#footertab1 {
-  text-align: right;
+.fcpadding {
+  padding: 5px 0;
 }
-#footertab3 {
+#footertab1 .subfootertext {
+  display: flex;
+  flex-direction: column;
   text-align: left;
+}
+#fcleft {
+
+}
+#fcright {
+
 }
 /*
 --------------------------------------------------------------------
