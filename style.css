@@ -302,6 +302,7 @@ footer {
   color: var(--MainL);
   background: var(--MainLL);
   position: absolute;
+  flex-flow: wrap;
 }
 footer a{
   color: var(--MainD);
@@ -323,7 +324,7 @@ footer h2 {
   text-align: right;
 }
 .footertab {
-  width: 14vw;
+  width: 224px;
   padding: 0 4vw;
   text-align: center;
 }
@@ -409,11 +410,11 @@ h5 {
   padding-right: 5%;
 }
 .menuitemprice {
-  width: 10%;
   display: flex;
   align-items: center;
   padding-right: 5%;
-  justify-content: flex-end;
+  justify-content: space-between;
+  width: 100px;
 }
 .menuitemdietary {
   width: 10%;
