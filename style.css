@@ -187,8 +187,8 @@ BELOW IS HERO TEXT / HERO IMAGES
   font-weight: bold;
 }
 #htxt1 {
-  padding: 30vh 0 2vh 15vw;
-  font-size: 160px;
+  padding: 30vh 0 0 15vw;
+  font-size: 130px;
 }
 #htxt2 {
   padding: 15vh 0 0 5vw;
@@ -201,7 +201,7 @@ BELOW IS HERO TEXT / HERO IMAGES
 }
 .herosubtxt {
   padding-left: 15vw;
-  font-size: 16px;
+  font-size: 14px;
   opacity: 90%;
 }
 /*
@@ -281,7 +281,7 @@ BELOW IS MID SECTION / IMAGE TILES
   text-align: right;
 }
 .cHeader {
-  font-size: 88px;
+  font-size: 78px;
   font-family: 'Josefin Sans', sans-serif;
 }
 .csubtxt {
@@ -415,6 +415,10 @@ h5 {
   padding-right: 5%;
   justify-content: space-between;
   width: 100px;
+}
+.menuitemprice div{
+  width: 120px;
+  text-align: center;
 }
 .menuitemdietary {
   width: 10%;
