@@ -126,42 +126,58 @@ BELOW IS HERO TEXT / HERO IMAGES
   background-size: cover;
 }
 #heroimgBrunch {
-  background: linear-gradient(180deg, url("Images/HeroImgBR.jpg") 50%, var(--Black) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 20%, rgba(255,255,255,0) 100%), url("Images/HeroImgBR.jpg") 50%;
+  width: 100vw;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 #heroimgDinner {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgDI.jpg");
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 20%, rgba(255,255,255,0) 100%), url("Images/HeroImgDI.jpg") 50%;
+  width: 100vw;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 #heroimgDesert {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgDE.jpg");
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 20%, rgba(255,255,255,0) 100%), url("Images/HeroImgDE.jpg") 50%;
+  width: 100vw;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 #heroimgKids {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgKI.jpg");
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 20%, rgba(255,255,255,0) 100%), url("Images/HeroImgKI.jpg") 50%;
+  width: 100vw;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 #heroimgWine {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgWI.jpg");
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 20%, rgba(255,255,255,0) 100%), url("Images/HeroImgWI.jpg") 50%;
+  width: 100vw;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 #heroimgBeer {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgBE.jpg");
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 20%, rgba(255,255,255,0) 100%), url("Images/HeroImgBE.jpg") 50%;
+  width: 100vw;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 #heroimgCocktails {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgCT.jpg");
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 20%, rgba(255,255,255,0) 100%), url("Images/HeroImgCT.jpg") 50%;
+  width: 100vw;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 #heroimgSoftDrinks {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImgSD.jpg");
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 20%, rgba(255,255,255,0) 100%), url("Images/HeroImgSD.jpg") 50%;
+  width: 100vw;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
