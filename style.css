@@ -125,6 +125,11 @@ BELOW IS HERO TEXT / HERO IMAGES
   background-position: center;
   background-size: cover;
 }
+#heroimgAboutUs {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg2.jpg");
+  background-position: center;
+  background-size: cover;
+}
 #heroimgBrunch {
   background: linear-gradient(180deg, rgba(0,0,0,0.8) 20%, rgba(255,255,255,0) 100%), url("Images/HeroImgBR.jpg") 50%;
   width: 100vw;
@@ -168,7 +173,7 @@ BELOW IS HERO TEXT / HERO IMAGES
   background-size: cover;
 }
 #heroimgCocktails {
-  background: linear-gradient(180deg, rgba(0,0,0,0.8) 20%, rgba(255,255,255,0) 100%), url("Images/HeroImgCT.jpg") 50%;
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 20%, rgba(255,255,255,0) 100%), url("Images/HeroImgCT.jpeg") 50%;
   width: 100vw;
   background-attachment: fixed;
   background-position: center;
@@ -201,20 +206,18 @@ BELOW IS HERO TEXT / HERO IMAGES
   color: var(--White);
   text-shadow: 0 0 5vw var(--Black);
   font-weight: bold;
-}
-#htxt1 {
   padding: 30vh 0 0 15vw;
   font-size: 130px;
 }
-#htxt2 {
-  padding: 15vh 0 0 5vw;
+.menutxt {
+  padding: 20vh 0 10vh 5vw;
   font-size: 92px;
+  background-color: rgba(0,0,0,.6);
+  /* color: var(--Black); */
   width: 100vw;
   text-align: center;
 }
-#shtxt2 {
-  padding: 0 0 5vh 50vw;
-}
+
 .herosubtxt {
   padding-left: 15vw;
   font-size: 14px;
@@ -414,12 +417,15 @@ h5 {
   width: 60vw;
   padding: 5vw;
   background-color: var(--White);
-  margin: 0 10%;
+  margin: 20vh 10%;
 }
 .MenuItem {
   display: flex;
   padding: 1% 0;
   border-bottom: 1px dashed var(--Black);
+}
+.hidebottom {
+  border-bottom: 1px rgba(0,0,0,0);
 }
 .MenuItemleftRow {
   width: 70%;
@@ -456,11 +462,11 @@ h5 {
     height: 30px;
     display: flex;
     justify-content: center;
+    padding-bottom: 5px;
     width: 100%;
   }
 .toppadding {
-  padding-top: 10%;
-  padding-bottom: 5%;
+  padding: 5% 0;
 }
 .centercont h1 {
   font-size: 300%;
