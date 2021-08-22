@@ -425,6 +425,7 @@ h5 {
   border-bottom: 1px dashed var(--Black);
 }
 .hidebottom {
+  padding-top: 5vh;
   border-bottom: 1px rgba(0,0,0,0);
 }
 .MenuItemleftRow {
