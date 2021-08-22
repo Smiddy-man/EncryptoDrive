@@ -53,10 +53,11 @@ a:hover{
   color: var(--Main);
 }
 #sidemenu a {
-  color: var(--MainD)
+  color: var(--MainD);
 }
 #sidemenu a:hover {
-  color: var(--Main)
+  color: var(--Main);
+  text-decoration: underline;
 }
 #containernav {
   width: 60vw;
