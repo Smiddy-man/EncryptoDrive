@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300&display=swap');
 /*
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lato', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
 
 BELOW IS THE INITIAL SETUP & COLOURS
 */
@@ -232,6 +231,7 @@ BELOW IS HERO TEXT / HERO IMAGES
   padding-left: 15vw;
   font-size: 14px;
   opacity: 90%;
+  font-family: 'Lato', sans-serif;
 }
 /*
 --------------------------------------------------------------------
@@ -480,6 +480,7 @@ h5 {
   padding: 5% 0;
 }
 .centercont h1 {
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 300%;
   margin: 2% 0;
 }
