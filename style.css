@@ -418,6 +418,11 @@ BELOW IS MENU SIDE-BAR
   display: flex;
   justify-content: center;
 }
+.nondisplacedtxtboxcont {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
 #txtboxcont h5, #txtboxcont h2, #txtboxcont {
   color: var(--Black);
 }
@@ -496,4 +501,17 @@ h5 {
   padding-right: 3%;
   width: 20px;
   height: 20px;
+}
+/*
+--------------------------------------------------------------------
+ABOVE IS MENU SIDE-BAR
+
+BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
+--------------------------------------------------------------------
+*/
+.flexoverflow4x4 {
+  display: flex;
+  flex-flow: row;
+  width: 30%;
+  height: 400px;
 }
