@@ -489,6 +489,7 @@ h5 {
 .centercont h1 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 300%;
+  text-align: center;
   margin: 2% 0;
 }
 .dietexplainitem {
@@ -510,8 +511,28 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
 --------------------------------------------------------------------
 */
 .flexoverflow4x4 {
+    width: 45%;
+    height: 400px;
+    margin: 2.5%;
+}
+.nondisplacedtxtboxcont .textbox {
+  width: 60vw;
+  padding: 5vw;
+  background-color: var(--White);
+  color: var(--Black);
+  margin: 20vh 10%;
   display: flex;
-  flex-flow: row;
-  width: 30%;
-  height: 400px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+#aboutimg1 {
+ background-image: url(Images/Tileimg1.jpg);
+ background-position: center;
+ background-size: cover;
+}
+#aboutimg2 {
+  background-image: url(Images/Tileimg2.jpg);
+  background-position: center;
+  background-size: cover;
 }
