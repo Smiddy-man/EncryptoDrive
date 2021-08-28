@@ -80,7 +80,7 @@ a:hover{
   /* justify-content: space-around; */
   align-items: center;
 }
-#longdivider {
+.longdivider {
   padding: 0 5px;
 }
 .midnavtxt {
@@ -412,7 +412,7 @@ BELOW IS MENU SIDE-BAR
   padding-top: 5vh;
   font-size: 240%;
 }
-#txtboxcont {
+.txtboxcont {
   width: 90vw;
   transform: translateX(12vw);
   display: flex;
@@ -423,7 +423,7 @@ BELOW IS MENU SIDE-BAR
   display: flex;
   justify-content: center;
 }
-#txtboxcont h5, #txtboxcont h2, #txtboxcont {
+.txtboxcont h5, .txtboxcont h2, .txtboxcont {
   color: var(--Black);
 }
 
@@ -502,6 +502,12 @@ h5 {
   padding-right: 3%;
   width: 20px;
   height: 20px;
+}
+.spacevli li{
+  padding: 10px 0;
+}
+.bold {
+  font-weight: bold;
 }
 /*
 --------------------------------------------------------------------
