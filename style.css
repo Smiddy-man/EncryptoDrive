@@ -46,6 +46,7 @@ nav {
 }
 a {
   text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
   color: var(--MainLL);
 }
 a:hover{
@@ -426,7 +427,9 @@ BELOW IS MENU SIDE-BAR
 .txtboxcont h5, .txtboxcont h2, .txtboxcont {
   color: var(--Black);
 }
-
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+}
 h5 {
   font-weight: 300;
 }
