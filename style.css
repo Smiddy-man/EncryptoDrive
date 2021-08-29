@@ -287,7 +287,6 @@ BELOW IS MID SECTION / IMAGE TILES
 .columns .cta a {
   align-items: flex-end;
   justify-content: flex-end;
-  padding: 0.8vw;
   margin-right: 20px;
 }
 .columns .cta {
@@ -325,15 +324,16 @@ BELOW IS FOOTER SECTION
 --------------------------------------------------------------------
 */
 footer {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  padding: 4vh 0;
-  color: var(--MainL);
-  background: var(--MainLL);
-  position: absolute;
-  flex-flow: wrap;
-  z-index: 5;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh 0;
+    color: var(--MainL);
+    background: var(--MainLL);
+    position: absolute;
+    flex-flow: wrap;
+    z-index: 5;
 }
 footer a{
   color: var(--MainD);
@@ -544,4 +544,20 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
   background-image: url(Images/Tileimg2.jpg);
   background-position: center;
   background-size: cover;
+}
+/*
+--------------------------------------------------------------------
+ABOVE IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
+
+BELOW IS MEDIA QUERIES
+--------------------------------------------------------------------
+*/
+@media screen and (max-width: 900px) {
+  footer {
+    flex-direction: column;
+  }
+  .footertab {
+    width: auto;
+    padding: 2vh 4vw;
+  }
 }
