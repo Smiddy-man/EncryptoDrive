@@ -521,7 +521,7 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
 */
 .flexoverflow4x4 {
     width: 45%;
-    height: 400px;
+    height: 500px;
     margin: 2.5%;
 }
 .nondisplacedtxtboxcont .textbox {
@@ -559,5 +559,41 @@ BELOW IS MEDIA QUERIES
   .footertab {
     width: auto;
     padding: 2vh 4vw;
+  }
+  .flexoverflow4x4 {
+    width: 100%;
+    height: 400px;
+  }
+  .nondisplacedtxtboxcont .textbox {
+    width: 100vw;
+    margin: 20vh 0;
+  }
+  #aboutimg2 {
+    order: 1;
+    margin-top: 100px;
+  }
+  #orderendmq {
+    order: 2;
+    height: 240px;
+  }
+  #footertab1 .subfootertext {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .nondisplacedtxtboxcont .textbox {
+    width: 100vw;
+    margin: 20vh 0;
+  }
+  #sidemenu {
+    display: none;
+  }
+  .textbox {
+    width: 100vw;
+    margin: 20vh 5vw;
+  }
+  .txtboxcont {
+    width: 100vw;
+    transform: none;
   }
 }
