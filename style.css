@@ -265,7 +265,6 @@ BELOW IS MID SECTION / IMAGE TILES
 #buttonincolumn2 {
   display: flex;
   flex-direction: row;
-  width: 12vw;
   justify-content: space-between;
   align-self: flex-end;
 }
@@ -553,7 +552,7 @@ ABOVE IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
 BELOW IS MEDIA QUERIES
 --------------------------------------------------------------------
 */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 885px) {
   footer {
     flex-direction: column;
   }
@@ -587,6 +586,14 @@ BELOW IS MEDIA QUERIES
     width: 90vw;
   }
 }
+@media screen and (max-width: 872px) {
+  .herosubtxt {
+    padding-left: 2vw;
+  }
+  .herotxt {
+    padding: 30vh 0 0 2vw;
+  }
+}
 @media screen and (max-width: 1180px) {
   .nondisplacedtxtboxcont .textbox {
     width: 100vw;
@@ -609,6 +616,7 @@ BELOW IS MEDIA QUERIES
 
 
 #overlay1 {
+  display: none;
   position: absolute;
   width: 100vw;
   height: 100vh;
