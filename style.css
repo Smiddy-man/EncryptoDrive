@@ -545,6 +545,16 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
   background-position: center;
   background-size: cover;
 }
+#careersimg1 {
+ background-image: url(Images/Tileimg3.jpg);
+ background-position: center;
+ background-size: cover;
+}
+#careersimg2 {
+  background-image: url(Images/Tileimg4.jpg);
+  background-position: center;
+  background-size: cover;
+}
 /*
 --------------------------------------------------------------------
 ABOVE IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
