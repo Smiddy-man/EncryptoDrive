@@ -132,7 +132,7 @@ BELOW IS HERO TEXT / HERO IMAGES
   /* opacity: 80%; */
 }
 #heroimg2 {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg2.jpg");
+  background: linear-gradient(rgba(0,0,0,0.8) 5%, rgba(0,0,0,0.5) 100%), url("Images/HeroImg2.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -198,7 +198,7 @@ BELOW IS HERO TEXT / HERO IMAGES
   background-size: cover;
 }
 #heroimg4 {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg4.jpg");
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 5%, rgba(0,0,0,0.5) 100%), url("Images/HeroImg4.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -222,7 +222,7 @@ BELOW IS HERO TEXT / HERO IMAGES
 }
 .menutxt {
   padding: 20vh 0 10vh 5vw;
-  font-size: 92px;
+  font-size: 72px;
   background-color: rgba(0,0,0,.6);
   /* color: var(--Black); */
   width: 100vw;
@@ -231,7 +231,7 @@ BELOW IS HERO TEXT / HERO IMAGES
 
 .herosubtxt {
   padding-left: 15vw;
-  font-size: 16px;
+  font-size: 21px;
   opacity: 90%;
   font-family: 'Lato', sans-serif;
 }
@@ -552,6 +552,11 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
 }
 #careersimg2 {
   background-image: url(Images/Tileimg4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#vouchersimg1 {
+  background-image: url(Images/Tile1.jpg);
   background-position: center;
   background-size: cover;
 }
