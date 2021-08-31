@@ -441,7 +441,7 @@ h5 {
 }
 .MenuItem {
   display: flex;
-  padding: 1% 0;
+  padding: 1vh 0;
   border-bottom: 1px dashed var(--Black);
 }
 .hidebottom {
@@ -487,7 +487,7 @@ h5 {
     width: 100%;
   }
 .toppadding {
-  padding: 5% 0;
+  padding: 5vh 0;
 }
 .centercont h1 {
   font-family: 'Josefin Sans', sans-serif;
