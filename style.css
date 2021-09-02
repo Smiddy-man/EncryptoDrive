@@ -203,12 +203,17 @@ BELOW IS HERO TEXT / HERO IMAGES
   background-size: cover;
 }
 #heroimg5 {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg5.jpg");
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 5%, rgba(0,0,0,0.5) 100%), url("Images/HeroImg5.jpg");
   background-position: center;
   background-size: cover;
 }
 #heroimg6 {
   background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#heroimg7 {
+  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg7.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -356,6 +361,7 @@ footer h2 {
 }
 .footertab {
   width: 224px;
+  height: 180px;
   padding: 0 4vw;
   text-align: center;
 }
@@ -523,6 +529,17 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
     width: 45%;
     height: 500px;
     margin: 2.5%;
+}
+.flexoverflow3wide {
+  width: 28.33%;
+  height: 500px;
+  margin: 2.5%;
+}
+.flexoverflow3wideitemtop {
+  font-size: 200%;
+  font-weight: 300;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-bottom: 5vh;
 }
 .nondisplacedtxtboxcont .textbox {
   width: 60vw;
