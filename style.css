@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300;400;600&display=swap');
 /*
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lato', sans-serif;
@@ -236,9 +236,10 @@ BELOW IS HERO TEXT / HERO IMAGES
 
 .herosubtxt {
   padding-left: 15vw;
-  font-size: 21px;
-  opacity: 90%;
-  font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    opacity: 90%;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
 }
 /*
 --------------------------------------------------------------------
@@ -540,6 +541,15 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
   font-weight: 300;
   font-family: 'Josefin Sans', sans-serif;
   padding-bottom: 5vh;
+  height: 40%;
+  padding: 5%;
+}
+.flexoverflow3wideitembottom {
+  height: 40%;
+  padding: 5%;
+}
+.bbg {
+  background-color: linear-gradient(180deg, black, transparent);
 }
 .nondisplacedtxtboxcont .textbox {
   width: 60vw;
