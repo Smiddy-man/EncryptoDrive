@@ -653,9 +653,10 @@ BELOW IS MEDIA QUERIES
     transform: none;
   }
 }
-
-
-
+.flexoverflow3wide:nth-child(2n) {
+  flex-direction: column-reverse;
+  display: flex;
+}
 
 #overlay1 {
   display: none;
