@@ -546,25 +546,46 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
 */
 .flexoverflow4x4 {
     width: 45%;
-    height: 500px;
+    height: 300px;
     margin: 2.5%;
 }
 .flexoverflow3wide {
   width: 28.33%;
-  height: 500px;
-  margin: 2.5%;
+  height: 700px;
+  margin: 2.2%;
+  border: dotted var(--Black);
+}
+#fof3w1{
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 5%, rgba(255,255,255,0.2) 100%), url("Images/HeroImgWI.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#fof3w2{
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 5%, rgba(255,255,255,0.2) 100%), url("Images/HeroImgDI.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .flexoverflow3wideitemtop {
   font-size: 200%;
   font-weight: 300;
   font-family: 'Josefin Sans', sans-serif;
   padding-bottom: 5vh;
-  height: 40%;
   padding: 5%;
 }
 .flexoverflow3wideitembottom {
-  height: 40%;
   padding: 5%;
+}
+.flexoverflow3wide:nth-child(2n) {
+  flex-direction: column-reverse;
+  display: flex;
+}
+.flexoverflow3wide:nth-child(6n),.flexoverflow3wide:nth-child(6n+2) {
+  flex-direction: column;
+  display: flex;
+}
+.flexoverflow3wide:nth-child(6n+1) {
+  flex-direction: column-reverse;
+  display: flex;
 }
 .bbg {
   background-color: linear-gradient(180deg, black, transparent);
@@ -670,18 +691,4 @@ BELOW IS MEDIA QUERIES
     width: 100vw;
     transform: none;
   }
-}
-.flexoverflow3wide:nth-child(2n) {
-  flex-direction: column-reverse;
-  display: flex;
-}
-
-#overlay1 {
-  display: none;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-image: url(Images/Overlay1.png);
 }
