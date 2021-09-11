@@ -553,27 +553,35 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
   width: 28.33%;
   height: 700px;
   margin: 2.2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: dotted var(--Black);
 }
 #fof3w1{
   background: linear-gradient(180deg, rgba(255,255,255,0.1) 5%, rgba(255,255,255,0.2) 100%), url("Images/HeroImgWI.jpg");
   background-size: cover;
   background-position: center;
+  width: 93%;
+  height: 90%;
 }
 #fof3w2{
   background: linear-gradient(180deg, rgba(255,255,255,0.1) 5%, rgba(255,255,255,0.2) 100%), url("Images/HeroImgDI.jpg");
   background-size: cover;
   background-position: center;
+  width: 93%;
+  height: 90%;
 }
 .flexoverflow3wideitemtop {
   font-size: 200%;
   font-weight: 300;
   font-family: 'Josefin Sans', sans-serif;
   padding-bottom: 5vh;
-  padding: 5%;
 }
 .flexoverflow3wideitembottom {
-  padding: 5%;
+  width: 80%;
+  padding: 5% 0;
 }
 .flexoverflow3wide:nth-child(2n) {
   flex-direction: column-reverse;
@@ -681,6 +689,9 @@ BELOW IS MEDIA QUERIES
     margin: 20vh 0;
   }
   #sidemenu {
+    display: none;
+  }
+  #hidemq {
     display: none;
   }
   .textbox {
