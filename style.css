@@ -577,7 +577,7 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
   font-size: 200%;
   font-weight: 300;
   font-family: 'Josefin Sans', sans-serif;
-  padding-bottom: 5vh;
+  padding: 5vh 0;
 }
 .flexoverflow3wideitembottom {
   width: 80%;
