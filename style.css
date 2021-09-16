@@ -544,7 +544,7 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
 */
 .flexoverflow4x4 {
   width: 45%;
-  height: 400px;
+  height: 650px;
   margin: 2.5%;
 }
 .flexoverflow3wide {
@@ -632,6 +632,10 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
   background-position: center;
   background-size: cover;
 }
+.centercont .toppadding div {
+  display: flex;
+  justify-content: space-between;
+}
 /*
 --------------------------------------------------------------------
 ABOVE IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
@@ -684,22 +688,23 @@ BELOW IS MEDIA QUERIES
     display: flex;
     justify-content: space-between;
   }
-  #block3 .cta a{
-    width: 200;
-  }
+  #block3 .cta a {
+    padding: 12px 30px;
+    margin: 0 8px;
 }
 @media screen and (max-width: 872px) {
   .flexoverflow3wide {
     width: 100%;
+  }
+  .herotxt {
+    padding: 20vh 10vw 0;
+    font-size: 400%;
   }
   .flexoverflow3wideitemtop img{
     width: 400px;
   }
   .herosubtxt {
     padding-left: 2vw;
-  }
-  .herotxt {
-    padding: 30vh 0 0 2vw;
   }
 }
 @media screen and (max-width: 1180px) {
