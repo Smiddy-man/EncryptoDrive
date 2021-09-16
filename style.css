@@ -8,7 +8,7 @@ BELOW IS THE INITIAL SETUP & COLOURS
 :root {
 --Main: #D29947;
 --MainL: #4F4137;
---MainLL: #dbc9b2;
+--MainLL: #dfc3b7;
 --MainD: #C04D4D;
 --White: #ffffff;
 --Black: #170a10;
@@ -597,7 +597,7 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
   display: flex;
 }
 .bbg {
-  background-color: linear-gradient(180deg, black, transparent);
+  background: linear-gradient(180deg, black, transparent);
 }
 .nondisplacedtxtboxcont .textbox {
   width: 60vw;
@@ -695,6 +695,7 @@ BELOW IS MEDIA QUERIES
     padding: 12px 30px;
     margin: 0 8px;
 }
+}
 @media screen and (max-width: 872px) {
   .flexoverflow3wide {
     width: 100%;
@@ -720,7 +721,7 @@ BELOW IS MEDIA QUERIES
   #sidemenu {
     display: none;
   }
-  #hidemq {
+  .hidemq {
     display: none;
   }
   .textbox {
