@@ -60,6 +60,9 @@ nav {
     hsla(0, 0%, 0%, 0.013) 92.9%,
     hsla(0, 0%, 0%, 0) 100%
     );
+    /*
+            Used a website to generate a cubic gradient as the linear was too harsh in the middle, https://larsenwork.com/easing-gradients/
+    */
   z-index: 2;
 }
 a {
