@@ -697,8 +697,10 @@ BELOW IS MEDIA QUERIES
     width: 100%;
   }
   .herotxt {
-    padding: 20vh 10vw 0;
+    padding: 20vh 0vw 0;
     font-size: 400%;
+    text-align: center;
+    width: 100vw;
   }
   .flexoverflow3wideitemtop img{
     width: 400px;
