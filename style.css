@@ -93,6 +93,10 @@ a:hover{
   /* justify-content: space-around; */
   /* align-items: center; */
 }
+.menuimg .herosubtxt {
+  font-size: 16px;
+  padding-left: 40vw;
+}
 #Logo {
   width: 80px;
   justify-content: space-around;
@@ -142,12 +146,14 @@ BELOW IS HERO TEXT / HERO IMAGES
 .heroimg {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .menuimg {
   position: relative;
 }
 #heroimg1 {
-  background: linear-gradient(180deg, var(--Black) 5%, rgba(255,255,255,0) 100%), url("Images/HeroImg1.jpg");
+  background: linear-gradient(180deg, var(--Black) 25%, rgba(0,0,0,0.2) 100%), url("Images/HeroImg1.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -242,8 +248,11 @@ BELOW IS HERO TEXT / HERO IMAGES
   color: var(--White);
   text-shadow: 0 0 5vw var(--Black);
   font-weight: bold;
-  padding: 30vh 0 0 15vw;
-  font-size: 130px;
+  padding-top: 35vh;
+  font-size: 160px;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
 }
 .menutxt {
   padding: 20vh 0 10vh 5vw;
@@ -255,11 +264,15 @@ BELOW IS HERO TEXT / HERO IMAGES
 }
 
 .herosubtxt {
-  padding-left: 15vw;
-    font-size: 18px;
-    opacity: 90%;
-    font-weight: 300;
-    font-family: 'Lato', sans-serif;
+  /* padding-left: 15vw; */
+  font-size: 1.2em;
+  /* resize: horizontal; */
+  opacity: 90%;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  align-self: center;
+  justify-self: center;
+  text-align: justify;
 }
 /*
 --------------------------------------------------------------------
@@ -735,13 +748,14 @@ BELOW IS MEDIA QUERIES
     display: none;
   }
   .herotxt {
-    padding: 20vh 0vw 0;
-    font-size: 400%;
+    padding: 40vh 0vw 0;
+    font-size: 480%;
     text-align: center;
     width: 100vw;
   }
   .herosubtxt {
     padding-left: 2vw;
+    font-size: .8em;
   }
 }
 @media screen and (max-width: 1180px) {
