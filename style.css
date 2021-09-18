@@ -60,6 +60,7 @@ nav {
     hsla(0, 0%, 0%, 0.013) 92.9%,
     hsla(0, 0%, 0%, 0) 100%
     );
+    padding-bottom: 6vh;
     /*
             Used a website to generate a cubic gradient as the linear was too harsh in the middle, https://larsenwork.com/easing-gradients/
     */
@@ -547,16 +548,15 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
 */
 .flexoverflow4x4 {
   width: 45%;
-  height: 650px;
+  height: 400px;
   margin: 2.5%;
 }
 .flexoverflow3wide {
   width: 28.33%;
-  height: 800px;
+  height: 830px;
   margin: 2.2%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   border: dotted var(--Black);
 }
@@ -564,21 +564,24 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
   background: linear-gradient(180deg, rgba(255,255,255,0.1) 5%, rgba(255,255,255,0.2) 100%), url("Images/HeroImgWI.jpg");
   background-size: cover;
   background-position: center;
-  width: 93%;
-  height: 83%;
+  border: none;
 }
 #fof3w2{
   background: linear-gradient(180deg, rgba(255,255,255,0.1) 5%, rgba(255,255,255,0.2) 100%), url("Images/HeroImgDI.jpg");
   background-size: cover;
   background-position: center;
-  width: 93%;
-  height: 83%;
+  border: none;
 }
 .flexoverflow3wideitemtop {
   font-size: 200%;
   font-weight: 300;
   font-family: 'Josefin Sans', sans-serif;
   padding: 5vh 0;
+  display: flex;
+  justify-content: center;
+}
+.flexoverflow3wideitemtop img{
+  width: 95%;
 }
 .flexoverflow3wideitembottom {
   width: 80%;
@@ -607,7 +610,7 @@ BELOW IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
   margin: 20vh 10%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 #aboutimg1 {
@@ -646,6 +649,33 @@ ABOVE IS ABOUT/CONTACT/VOUCHERS/BOOKING PAGES
 BELOW IS MEDIA QUERIES
 --------------------------------------------------------------------
 */
+@media screen and (max-width: 1200px) {
+  .flexoverflow4x4 {
+  height: 500px;
+}
+.midnavtxt {
+    padding: 0 0vw;
+}
+#containernav {
+  width: 80vw;
+}
+}
+@media screen and (max-width: 1680px) {
+.nondisplacedtxtboxcont .textbox {
+  width: 70vw;
+}
+}
+@media screen and (max-width: 1460px) {
+  .flexoverflow4x4 {
+    height: 475px;
+  }
+  #fof3w1 {
+    display: none;
+  }
+  .flexoverflow3wide {
+    width: 44%;
+  }
+}
 @media screen and (max-width: 885px) {
   footer {
     flex-direction: column;
@@ -699,15 +729,16 @@ BELOW IS MEDIA QUERIES
 @media screen and (max-width: 872px) {
   .flexoverflow3wide {
     width: 100%;
+    height: fit-content;
+  }
+  .hidemq {
+    display: none;
   }
   .herotxt {
     padding: 20vh 0vw 0;
     font-size: 400%;
     text-align: center;
     width: 100vw;
-  }
-  .flexoverflow3wideitemtop img{
-    width: 400px;
   }
   .herosubtxt {
     padding-left: 2vw;
@@ -719,9 +750,6 @@ BELOW IS MEDIA QUERIES
     margin: 20vh 0;
   }
   #sidemenu {
-    display: none;
-  }
-  .hidemq {
     display: none;
   }
   .textbox {
