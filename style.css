@@ -8,7 +8,7 @@ BELOW IS THE INITIAL SETUP & COLOURS
 :root {
 --Main: #D29947;
 --MainL: #4F4137;
---MainLL: #dfc3b7;
+--MainLL: #f3d8bc;
 --MainD: #C04D4D;
 --White: #ffffff;
 --Black: #170a10;
@@ -520,7 +520,7 @@ h5 {
   padding: 5px 0;
 }
 .centercont {
-    height: 30px;
+    /* height: 30px; */
     display: flex;
     justify-content: center;
     padding-bottom: 5px;
@@ -539,7 +539,7 @@ h5 {
   display: flex;
   justify-content: center;
   height: 20px;
-  width: 20%;
+  /* width: 20%; */
 }
 .dietexplainitem img {
   padding-right: 3%;
@@ -690,6 +690,20 @@ BELOW IS MEDIA QUERIES
   }
 }
 @media screen and (max-width: 885px) {
+  .centercont {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+  .dietexplainitem {
+    display: flex;
+    justify-content: center;
+    /* height: 20px; */
+    padding: 1vw;
+    margin: 1vh 0;
+    border: 1px dashed;
+}
   footer {
     flex-direction: column;
   }
@@ -748,8 +762,7 @@ BELOW IS MEDIA QUERIES
     display: none;
   }
   .herotxt {
-    padding: 40vh 0vw 0;
-    font-size: 480%;
+    font-size: 380%;
     text-align: center;
     width: 100vw;
   }
